@@ -155,7 +155,6 @@ footer p{
 @media (max-width: 576px) {
     .container{
         padding: 0px 5%;
-        width: 100%;
     }
     .logo h1{
         font-size: 18px;
