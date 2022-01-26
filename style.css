@@ -150,9 +150,95 @@ footer{
 footer p{
     color: #120E43;
 }
+/*----------------- Responsive for Tablet oriention Devices----------- */
+@media only screen and (max-width: 1279px) {
+    .container{
+        padding: 0px 10%;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .left-banner{
+        order: 2;
+        width: 100%;
+    }
+    .left-banner h1{
+        font-size: 50px;
+        width: 100%;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+    .left-banner p{
+        width: 100%;
+        font-size: 30px;
+        text-align: justify;
+        margin-bottom: 25px;
+    }
+    .right-banner{
+        order: 1;
+        width: 100%;
+    }
+    .right-banner img{
+        width: 100%;
+    }
+}
+/*----------------- Responsive for Tablet Devices----------- */
+
+@media only screen and (max-width: 992px) {
+    .container{
+        padding: 0 60px;
+    }
+    .logo h1{
+        font-size: 30px;
+    }
+    .menu a{
+        margin-left: 25px;
+    }
+    .menu a li{
+        font-size: 25px;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .left-banner{
+        order: 2;
+        width: 100%;
+    }
+    .left-banner h1{
+        font-size: 40px;
+        width: 100%;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+    .left-banner p{
+        width: 100%;
+        font-size: 25px;
+        text-align: justify;
+        margin-bottom: 25px;
+    }
+    .right-banner{
+        order: 1;
+        width: 100%;
+    }
+    .right-banner img{
+        width: 100%;
+    }
+    .product-section{
+        margin-bottom: 20%;
+    }
+    .products{
+        grid-template-columns: repeat(2,1fr);
+    }
+    footer{
+        font-size: 13px;
+        width: 100%;
+    }
+}
 
 
-@media (max-width: 576px) {
+/*----------------- Responsive for Mobile Devices----------- */
+
+@media only screen and (max-width: 688px) {
     .container{
         padding: 0 50px;
     }
